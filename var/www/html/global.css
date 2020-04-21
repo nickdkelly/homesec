@@ -5,7 +5,9 @@ body {
     -o-animation: fadein 1s; /* Opera */
 }
 
-
+a,p {
+    font-size: large;
+}
 
 /* page load fade in animation courtesy of https://stackoverflow.com/questions/11679567/using-css-for-a-fade-in-effect-on-page-load */
 @keyframes fadein {
@@ -43,7 +45,6 @@ body {
 
 /* end of page load animation */
 
-a {
-    font-size: medium;
-    font-weight: bold;
+.faq {
+    font-weight:bold;
 }

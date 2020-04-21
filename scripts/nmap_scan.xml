@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE nmaprun>
 <?xml-stylesheet href="/var/www/html/scripts/nmap-bootstrap.xsl" type="text/xsl"?>
-<!-- Nmap 7.60 scan initiated Mon Apr 20 16:43:04 2020 as: nmap -oX nmap_scan.xml -&#45;stylesheet /var/www/html/scripts/nmap-bootstrap.xsl -sT -p 1-1024 10.35.0.0/24 -->
-<nmaprun scanner="nmap" args="nmap -oX nmap_scan.xml -&#45;stylesheet /var/www/html/scripts/nmap-bootstrap.xsl -sT -p 1-1024 10.35.0.0/24" start="1587400984" startstr="Mon Apr 20 16:43:04 2020" version="7.60" xmloutputversion="1.04">
+<!-- Nmap 7.60 scan initiated Mon Apr 20 21:07:35 2020 as: nmap -oX nmap_scan.xml -&#45;stylesheet /var/www/html/scripts/nmap-bootstrap.xsl -sT -p 1-1024 10.35.0.0/24 -->
+<nmaprun scanner="nmap" args="nmap -oX nmap_scan.xml -&#45;stylesheet /var/www/html/scripts/nmap-bootstrap.xsl -sT -p 1-1024 10.35.0.0/24" start="1587416855" startstr="Mon Apr 20 21:07:35 2020" version="7.60" xmloutputversion="1.04">
 <scaninfo type="connect" protocol="tcp" numservices="1024" services="1-1024"/>
 <verbose level="0"/>
 <debugging level="0"/>
-<host starttime="1587400984" endtime="1587401044"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<host starttime="1587416855" endtime="1587416921"><status state="up" reason="syn-ack" reason_ttl="0"/>
 <address addr="10.35.0.1" addrtype="ipv4"/>
 <hostnames>
 <hostname name="router.tyria.lan" type="PTR"/>
@@ -19,9 +19,9 @@
 <port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" method="table" conf="3"/></port>
 <port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="https" method="table" conf="3"/></port>
 </ports>
-<times srtt="2942" rttvar="236" to="100000"/>
+<times srtt="2870" rttvar="219" to="100000"/>
 </host>
-<host starttime="1587400984" endtime="1587401019"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<host starttime="1587416855" endtime="1587416896"><status state="up" reason="syn-ack" reason_ttl="0"/>
 <address addr="10.35.0.2" addrtype="ipv4"/>
 <hostnames>
 <hostname name="cantha.tyria.lan" type="PTR"/>
@@ -36,9 +36,9 @@
 <port protocol="tcp" portid="546"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="dhcpv6-client" method="table" conf="3"/></port>
 <port protocol="tcp" portid="902"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="iss-realsecure" method="table" conf="3"/></port>
 </ports>
-<times srtt="5333" rttvar="1861" to="100000"/>
+<times srtt="5806" rttvar="1743" to="100000"/>
 </host>
-<host starttime="1587400984" endtime="1587400999"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<host starttime="1587416855" endtime="1587416877"><status state="up" reason="syn-ack" reason_ttl="0"/>
 <address addr="10.35.0.10" addrtype="ipv4"/>
 <hostnames>
 <hostname name="dns1.tyria.lan" type="PTR"/>
@@ -50,9 +50,9 @@
 <port protocol="tcp" portid="53"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="domain" method="table" conf="3"/></port>
 <port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" method="table" conf="3"/></port>
 </ports>
-<times srtt="6586" rttvar="539" to="100000"/>
+<times srtt="5608" rttvar="505" to="100000"/>
 </host>
-<host starttime="1587400984" endtime="1587401020"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<host starttime="1587416855" endtime="1587416900"><status state="up" reason="syn-ack" reason_ttl="0"/>
 <address addr="10.35.0.15" addrtype="ipv4"/>
 <hostnames>
 <hostname name="dns2.tyria.lan" type="PTR"/>
@@ -63,10 +63,22 @@
 <port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" method="table" conf="3"/></port>
 <port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" method="table" conf="3"/></port>
 </ports>
-<times srtt="7198" rttvar="4835" to="100000"/>
+<times srtt="7174" rttvar="4201" to="100000"/>
 </host>
-<taskprogress task="Connect Scan" time="1587401048" percent="51.14" remaining="4" etc="1587401052"/>
-<host starttime="1587400984" endtime="1587401045"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<taskprogress task="Connect Scan" time="1587416940" percent="49.96" remaining="20" etc="1587416959"/>
+<taskprogress task="Connect Scan" time="1587417167" percent="95.99" remaining="11" etc="1587417177"/>
+<taskprogress task="Connect Scan" time="1587417204" percent="98.08" remaining="6" etc="1587417210"/>
+<taskprogress task="Connect Scan" time="1587417218" percent="98.20" remaining="6" etc="1587417223"/>
+<taskprogress task="Connect Scan" time="1587417218" percent="98.21" remaining="6" etc="1587417223"/>
+<taskprogress task="Connect Scan" time="1587417265" percent="98.90" remaining="4" etc="1587417269"/>
+<taskprogress task="Connect Scan" time="1587417274" percent="98.98" remaining="4" etc="1587417278"/>
+<taskprogress task="Connect Scan" time="1587417275" percent="98.99" remaining="4" etc="1587417279"/>
+<taskprogress task="Connect Scan" time="1587417280" percent="99.03" remaining="4" etc="1587417284"/>
+<taskprogress task="Connect Scan" time="1587417286" percent="98.94" remaining="4" etc="1587417290"/>
+<taskprogress task="Connect Scan" time="1587417288" percent="98.95" remaining="4" etc="1587417292"/>
+<taskprogress task="Connect Scan" time="1587417288" percent="98.96" remaining="4" etc="1587417292"/>
+<taskprogress task="Connect Scan" time="1587417288" percent="98.96" remaining="4" etc="1587417292"/>
+<host starttime="1587416855" endtime="1587416922"><status state="up" reason="syn-ack" reason_ttl="0"/>
 <address addr="10.35.0.25" addrtype="ipv4"/>
 <hostnames>
 <hostname name="nextcloud.tyria.lan" type="PTR"/>
@@ -79,9 +91,9 @@
 <port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" method="table" conf="3"/></port>
 <port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="https" method="table" conf="3"/></port>
 </ports>
-<times srtt="7214" rttvar="1266" to="100000"/>
+<times srtt="6699" rttvar="1563" to="100000"/>
 </host>
-<host starttime="1587400984" endtime="1587401119"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<host starttime="1587416855" endtime="1587417059"><status state="up" reason="syn-ack" reason_ttl="0"/>
 <address addr="10.35.0.30" addrtype="ipv4"/>
 <hostnames>
 <hostname name="ascalon.tyria.lan" type="PTR"/>
@@ -97,9 +109,9 @@
 <port protocol="tcp" portid="902"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="iss-realsecure" method="table" conf="3"/></port>
 <port protocol="tcp" portid="912"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="apex-mesh" method="table" conf="3"/></port>
 </ports>
-<times srtt="4434" rttvar="696" to="100000"/>
+<times srtt="4265" rttvar="680" to="100000"/>
 </host>
-<host starttime="1587400984" endtime="1587401123"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<host starttime="1587416855" endtime="1587417079"><status state="up" reason="syn-ack" reason_ttl="0"/>
 <address addr="10.35.0.45" addrtype="ipv4"/>
 <hostnames>
 <hostname name="plex.tyria.lan" type="PTR"/>
@@ -112,9 +124,9 @@
 <port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="https" method="table" conf="3"/></port>
 <port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
 </ports>
-<times srtt="4866" rttvar="1374" to="100000"/>
+<times srtt="4211" rttvar="462" to="100000"/>
 </host>
-<host starttime="1587400984" endtime="1587401119"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<host starttime="1587416855" endtime="1587417079"><status state="up" reason="syn-ack" reason_ttl="0"/>
 <address addr="10.35.0.90" addrtype="ipv4"/>
 <hostnames>
 </hostnames>
@@ -125,9 +137,9 @@
 <port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" method="table" conf="3"/></port>
 <port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="https" method="table" conf="3"/></port>
 </ports>
-<times srtt="4672" rttvar="786" to="100000"/>
+<times srtt="4947" rttvar="1265" to="100000"/>
 </host>
-<host starttime="1587400984" endtime="1587401119"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<host starttime="1587416855" endtime="1587417083"><status state="up" reason="syn-ack" reason_ttl="0"/>
 <address addr="10.35.0.118" addrtype="ipv4"/>
 <hostnames>
 </hostnames>
@@ -136,9 +148,9 @@
 </extraports>
 <port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" method="table" conf="3"/></port>
 </ports>
-<times srtt="3234" rttvar="324" to="100000"/>
+<times srtt="5190" rttvar="828" to="100000"/>
 </host>
-<host starttime="1587400984" endtime="1587401123"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<host starttime="1587416855" endtime="1587417081"><status state="up" reason="conn-refused" reason_ttl="0"/>
 <address addr="10.35.0.122" addrtype="ipv4"/>
 <hostnames>
 </hostnames>
@@ -146,9 +158,9 @@
 <extrareasons reason="conn-refused" count="1024"/>
 </extraports>
 </ports>
-<times srtt="6676" rttvar="810" to="100000"/>
+<times srtt="8288" rttvar="4332" to="100000"/>
 </host>
-<host starttime="1587400984" endtime="1587401045"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<host starttime="1587416855" endtime="1587416922"><status state="up" reason="conn-refused" reason_ttl="0"/>
 <address addr="10.35.0.123" addrtype="ipv4"/>
 <hostnames>
 </hostnames>
@@ -156,9 +168,9 @@
 <extrareasons reason="conn-refused" count="1024"/>
 </extraports>
 </ports>
-<times srtt="490" rttvar="239" to="100000"/>
+<times srtt="846" rttvar="483" to="100000"/>
 </host>
-<host starttime="1587400984" endtime="1587401045"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<host starttime="1587416855" endtime="1587416922"><status state="up" reason="syn-ack" reason_ttl="0"/>
 <address addr="10.35.0.125" addrtype="ipv4"/>
 <hostnames>
 </hostnames>
@@ -171,9 +183,35 @@
 <port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="netbios-ssn" method="table" conf="3"/></port>
 <port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
 </ports>
-<times srtt="1133" rttvar="457" to="100000"/>
+<times srtt="959" rttvar="870" to="100000"/>
 </host>
-<host starttime="1587400984" endtime="1587401045"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<host starttime="1587416855" endtime="1587417656"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="10.35.0.130" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="961">
+<extrareasons reason="conn-refused" count="961"/>
+</extraports>
+<extraports state="filtered" count="63">
+<extrareasons reason="no-responses" count="63"/>
+</extraports>
+</ports>
+<times srtt="72847" rttvar="61366" to="318311"/>
+</host>
+<host starttime="1587416855" endtime="1587417464"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="10.35.0.143" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="849">
+<extrareasons reason="conn-refused" count="849"/>
+</extraports>
+<extraports state="filtered" count="175">
+<extrareasons reason="no-responses" count="175"/>
+</extraports>
+</ports>
+<times srtt="58577" rttvar="25830" to="161897"/>
+</host>
+<host starttime="1587416855" endtime="1587416922"><status state="up" reason="conn-refused" reason_ttl="0"/>
 <address addr="10.35.0.144" addrtype="ipv4"/>
 <hostnames>
 </hostnames>
@@ -181,9 +219,9 @@
 <extrareasons reason="conn-refused" count="1024"/>
 </extraports>
 </ports>
-<times srtt="11748" rttvar="1495" to="100000"/>
+<times srtt="12357" rttvar="2219" to="100000"/>
 </host>
-<host starttime="1587400984" endtime="1587401045"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<host starttime="1587416855" endtime="1587416922"><status state="up" reason="conn-refused" reason_ttl="0"/>
 <address addr="10.35.0.154" addrtype="ipv4"/>
 <hostnames>
 </hostnames>
@@ -191,9 +229,9 @@
 <extrareasons reason="conn-refused" count="1024"/>
 </extraports>
 </ports>
-<times srtt="9521" rttvar="1133" to="100000"/>
+<times srtt="8674" rttvar="818" to="100000"/>
 </host>
-<host starttime="1587400984" endtime="1587401045"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<host starttime="1587416855" endtime="1587416922"><status state="up" reason="syn-ack" reason_ttl="0"/>
 <address addr="10.35.0.155" addrtype="ipv4"/>
 <hostnames>
 </hostnames>
@@ -204,9 +242,9 @@
 <port protocol="tcp" portid="53"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="domain" method="table" conf="3"/></port>
 <port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" method="table" conf="3"/></port>
 </ports>
-<times srtt="5992" rttvar="1215" to="100000"/>
+<times srtt="4008" rttvar="602" to="100000"/>
 </host>
-<host starttime="1587400984" endtime="1587401123"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<host starttime="1587416855" endtime="1587417025"><status state="up" reason="syn-ack" reason_ttl="0"/>
 <address addr="10.35.0.156" addrtype="ipv4"/>
 <hostnames>
 </hostnames>
@@ -217,18 +255,8 @@
 <port protocol="tcp" portid="135"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="msrpc" method="table" conf="3"/></port>
 <port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
 </ports>
-<times srtt="32332" rttvar="23815" to="127592"/>
+<times srtt="11541" rttvar="12847" to="100000"/>
 </host>
-<host starttime="1587400984" endtime="1587401121"><status state="up" reason="conn-refused" reason_ttl="0"/>
-<address addr="10.35.0.166" addrtype="ipv4"/>
-<hostnames>
-</hostnames>
-<ports><extraports state="closed" count="1024">
-<extrareasons reason="conn-refused" count="1024"/>
-</extraports>
-</ports>
-<times srtt="7056" rttvar="2562" to="100000"/>
-</host>
-<runstats><finished time="1587401123" timestr="Mon Apr 20 16:45:23 2020" elapsed="139.70" summary="Nmap done at Mon Apr 20 16:45:23 2020; 256 IP addresses (17 hosts up) scanned in 139.70 seconds" exit="success"/><hosts up="17" down="239" total="256"/>
+<runstats><finished time="1587417656" timestr="Mon Apr 20 21:20:56 2020" elapsed="801.10" summary="Nmap done at Mon Apr 20 21:20:56 2020; 256 IP addresses (18 hosts up) scanned in 801.10 seconds" exit="success"/><hosts up="18" down="238" total="256"/>
 </runstats>
 </nmaprun>

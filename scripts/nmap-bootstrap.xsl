@@ -74,7 +74,8 @@ Andreas Hontzia (@honze_net)
         <div class="ui centered ten wide column">
           <div class="ui teal segment">
             <div class="jumbotron">
-              <h1 class="ui header">Here's what we found. <small>Remember to check the learning section if you're unsure what any of this means. You can also search the internet for any terms you're unsure of.</small></h1>
+              <h1 class="ui header">Here's what we found.</h1><br/>
+                <small>Remember to check the learning section if you're unsure what any of this means. You can also search the internet for any terms you're unsure of.</small>
               <!-- <pre style="white-space:pre-wrap; word-wrap:break-word;"><xsl:value-of select="/nmaprun/@args"/></pre> -->
               <p class="lead">
                 <xsl:value-of select="/nmaprun/@startstr"/> – <xsl:value-of select="/nmaprun/runstats/finished/@timestr"/><br/>
